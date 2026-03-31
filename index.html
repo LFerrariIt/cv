@@ -21,9 +21,7 @@
 
     <!-- SIDEBAR -->
     <aside class="sidebar" data-sidebar>
-
       <div class="sidebar-info">
-
         <figure class="avatar-box">
           <img src="./assets/images/luisa.jpg" alt="Luisa Ferrari" width="120">
         </figure>
@@ -37,18 +35,13 @@
           <span>Show Contacts</span>
           <ion-icon name="chevron-down"></ion-icon>
         </button>
-
       </div>
 
       <div class="sidebar-info_more">
         <div class="separator"></div>
-
         <ul class="contacts-list">
-
           <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">Email</p>
               <a href="mailto:luisa.ferrari5@unibo.it" class="contact-link">luisa.ferrari5@unibo.it</a>
@@ -56,82 +49,100 @@
           </li>
 
           <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="logo-github"></ion-icon>
-            </div>
+            <div class="icon-box"><ion-icon name="logo-github"></ion-icon></div>
             <div class="contact-info">
               <p class="contact-title">GitHub</p>
-              <a href="https://github.com/YourGitHubUsername" target="_blank" class="contact-link">@YourGitHubUsername</a>
+              <a href="https://github.com/LFerrariIt" target="_blank" class="contact-link">@LFerrariIt</a>
             </div>
           </li>
 
           <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="logo-google"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Google Scholar</p>
-              <a href="https://scholar.google.com/citations?user=YourGSID" target="_blank" class="contact-link">My Google Scholar</a>
-            </div>
-          </li>
+  <div class="icon-box">
+    <!-- Replace Ionicon with custom ORCID logo -->
+    <img src="./assets/images/orcid-logo.png" alt="ORCID" width="24">
+  </div>
+  <div class="contact-info">
+    <p class="contact-title">ORCID</p>
+    <a href="https://orcid.org/0000-0002-7922-6795" target="_blank" class="contact-link">Link</a>
+  </div>
+</li>
+
+<li class="contact-item">
+  <div class="icon-box">
+    <!-- Replace Ionicon with custom Google Scholar logo -->
+    <img src="./assets/images/google-scholar-logo.png" alt="Google Scholar" width="24">
+  </div>
+  <div class="contact-info">
+    <p class="contact-title">Google Scholar</p>
+    <a href="https://scholar.google.com/citations?hl=en&user=O-r_Kv0AAAAJ" target="_blank" class="contact-link">Link</a>
+  </div>
+</li>
+
+          
 
           <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="logo-orcid"></ion-icon>
-            </div>
+            <div class="icon-box"><ion-icon name="school-outline"></ion-icon></div>
             <div class="contact-info">
-              <p class="contact-title">ORCID</p>
-              <a href="https://orcid.org/YourORCID" target="_blank" class="contact-link">My ORCID</a>
+              <p class="contact-title">Universities</p>
+              <a href="https://www.unibo.it/sitoweb/luisa.ferrari5" target="_blank" class="contact-link">Unibo</a> |
+              <a href="https://unimore.unifind.cineca.it/resource/person/279584" target="_blank" class="contact-link">Unimore</a>
             </div>
           </li>
-
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="school-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">University</p>
-              <a href="https://www.unibo.it" target="_blank" class="contact-link">Unibo</a> |
-              <a href="https://www.unimore.it" target="_blank" class="contact-link">Unimore</a>
-            </div>
-          </li>
-
         </ul>
       </div>
-
     </aside>
 
     <!-- MAIN CONTENT -->
     <div class="main-content">
 
+      <!-- SINGLE-PAGE CV NAVIGATION -->
       <nav class="navbar">
         <ul class="navbar-list">
-          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>CV</button></li>
         </ul>
       </nav>
 
-      <!-- ABOUT -->
-      <article class="about active" data-page="about">
+      <!-- CV CONTENT -->
+      <article class="cv active" data-page="cv">
         <header>
-          <h2 class="h2 article-title">About Me</h2>
+          <h2 class="h2 article-title">Curriculum Vitae</h2>
         </header>
 
-        <section class="about-text">
-          <p>
-            I am a PhD graduate in Statistical Sciences with expertise in Bayesian statistics, ecological modeling, and
-            social policy analysis. I specialize in translating complex data into actionable insights.
-          </p>
-        </section>
-      </article>
+        <!-- Academic Work -->
+        <section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
+    <h3 class="h3">Work Experience</h3>
+  </div>
 
-      <!-- RESUME -->
-      <article class="resume" data-page="resume">
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Research Assistant</h4>
+      <span>2023 – present | Department of Economics, University of Modena & Reggio Emilia, Italy</span>
+      <ul>
+        <li>Analyzed ecological data using hierarchical Bayesian models and model-based clustering.</li>
+      </ul>
+    </li>
 
+  <ul class="timeline-list">
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Lecturer</h4>
+      <span>2025 – Present | Department of Communication and Economics, University of Modena and Reggio Emilia, Italy</span>
+      <ul>
+        <li>Course: GLM statistical models</li>
+      </ul>
+    </li>
+
+    <li class="timeline-item">
+      <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+      <span>2022 – present | Department of Statistical Sciences, University of Bologna, Italy</span>
+      <ul>
+        <li>Supported undergraduate statistics courses via practice sessions and labs in R.</li>
+        <li>Ran intensive crash courses to introductory statistics and coding.</li>
+    </li>
+  </ul>
+</section>
+
+        <!-- Education -->
         <section class="timeline">
           <div class="title-wrapper">
             <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
@@ -145,7 +156,7 @@
             </li>
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">MSc in Data Science</h4>
-              <span>UCL, UK – 2020-2021</span>
+              <span>University College London, UK – 2020-2021</span>
             </li>
             <li class="timeline-item">
               <h4 class="h4 timeline-item-title">BSc in Economics and Management</h4>
@@ -154,57 +165,112 @@
           </ul>
         </section>
 
+        <!-- Publications -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box"><ion-icon name="reader-outline"></ion-icon></div>
+    <h3 class="h3">Publications</h3>
+  </div>
+
+  <ul class="timeline-list">
+    <li class="timeline-item">
+      <p>
+        Ferrari, L., & Ventrucci, M. (2025). A standardization procedure to incorporate variance partitioning‐based priors in latent Gaussian models. 
+        <em>Scandinavian Journal of Statistics, 53(1), 364-394</em>. 
+        R package: <a href="https://github.com/LFerrariIt/scaleGMRF" target="_blank">scaleGMRF</a>
+      </p>
+    </li>
+    <li class="timeline-item">
+      <p>
+        Ferrari, L., Manzi, G., Micheletti, A., Nicolussi, F., & Salini, S. (2024). Pandemic data quality modelling: a Bayesian approach in the Italian case. 
+        <em>Quality & Quantity, 1-23</em>.
+      </p>
+    </li>
+    <li class="timeline-item">
+      <p>
+        Ferrari, L., & Ventrucci, M. (2024). Variance partitioning-based priors for species distribution models. 
+        <em>Proceedings of the 38th International Workshop on Statistical Modelling (pp. 116-121)</em>.
+      </p>
+    </li>
+    <li class="timeline-item">
+      <p>
+        Ferrari, L., Ventrucci, M., & Alex, L. (2023). Application of the hierarchical variance decomposition approach to an ecological case study with mixed effects. 
+        <em>Proceedings of the GRASPA 2023 Conference (pp. 1-6)</em>.
+      </p>
+    </li>
+    <li class="timeline-item">
+      <p>
+        Ferrari, L., Gerardi, G., Manzi, G., Micheletti, A., Nicolussi, F., Biganzoli, E., & Salini, S. (2021). Modeling provincial COVID-19 epidemic data using an adjusted time-dependent SIRD model. 
+        <em>International Journal of Environmental Research and Public Health, 18(12), 6563</em>.
+      </p>
+    </li>
+  </ul>
+</section>
+
+        <!-- Conference Participation -->
         <section class="timeline">
           <div class="title-wrapper">
-            <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
-            <h3 class="h3">Experience</h3>
+            <div class="icon-box"><ion-icon name="megaphone-outline"></ion-icon></div>
+            <h3 class="h3">Conference Participation</h3>
+          </div>
+
+          <ul class="timeline-list">
+            <li class="timeline-item">Poster contribution (winner) at GRASPA 2025 - Rome, Italy</li>
+            <li class="timeline-item">Invited talk at CLADAG 2025 - Naples, Italy</li>
+             <li class="timeline-item">Poster contribution at IWSM 2025 - Limerick, Ireland</li>
+            <li class="timeline-item">Contributed talk at INLA Workshop 2025 - Glasgow, UK</li>
+            <li class="timeline-item">Invited talk at SDS 2025 - Milan, Italy</li>
+            <li class="timeline-item">Invited talk at CFE-CMStatistics 2024 - King’s College London, UK</li>
+            <li class="timeline-item">Contributed talk at IWSM 2024 - Durham, UK</li>
+            <li class="timeline-item">Poster at ISBA 2024 - Venezia, Italy</li>
+            <li class="timeline-item">Invited talk at META2 WORKSHOP - Rimini, Italy</li>
+            <li class="timeline-item">Poster contribution at StaTalk 2024 - Firenze, Italy</li>
+            <li class="timeline-item">Invited talk at CMStatistics 2023 - Berlin, Germany</li>
+            <li class="timeline-item">Poster contribution at GRASPA 2023 - Palermo, Italy</li>
+          </ul>
+        </section>
+
+        <!-- Further Activities -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box"><ion-icon name="rocket-outline"></ion-icon></div>
+            <h3 class="h3">Further Activities</h3>
           </div>
 
           <ul class="timeline-list">
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Research Assistant</h4>
-              <span>2023 – Present</span>
-              <ul>
-                <li>Analyzed ecological data using multivariate Bayesian models.</li>
-                <li>Collaborated on welfare regime classification projects.</li>
-              </ul>
+              <strong>Visiting period at Brigham Young University, US </strong> 
+              <br>
+              Sep. - Dec. 2023.
+              Supervisor: Prof. Garritt Page
             </li>
-
             <li class="timeline-item">
-              <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
-              <span>2022 – 2023</span>
-              <ul>
-                <li>Supported undergraduate statistics courses.</li>
-                <li>Designed lab exercises in R for ecological modeling.</li>
-              </ul>
+              <strong>ABS Summer School: Bayesian Causal Inference </strong> 
+              <br>
+              11-16 June 2023, DISIA, University of Firenze, Italy
             </li>
           </ul>
         </section>
 
+        <!-- Additional Skills -->
         <section class="skill">
-          <h3 class="h3 skills-title">Skills</h3>
+          <h3 class="h3 skills-title">Technical Skills</h3>
           <ul class="skills-list">
-            <li class="skills-item">R / NIMBLE / Bayesian modeling</li>
-            <li class="skills-item">Multivariate data analysis</li>
-            <li class="skills-item">Data visualization (ggplot2, matplotlib)</li>
-            <li class="skills-item">Python / Machine Learning</li>
+            <li class="skills-item">R (Markdown, Shiny, INLA, nimble, package design)</li>
+            <li class="skills-item">Python</li>
+            <li class="skills-item">Bugs</li>
+            <li class="skills-item">LaTeX</li>
+            <li class="skills-item">GitHub</li>
           </ul>
         </section>
-      </article>
 
-      <!-- CONTACT -->
-      <article class="contact" data-page="contact">
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="contact-list">
-          <ul>
-            <li>Email: <a href="mailto:luisa.ferrari5@unibo.it">luisa.ferrari5@unibo.it</a></li>
-            <li>GitHub: <a href="https://github.com/YourGitHubUsername" target="_blank">@YourGitHubUsername</a></li>
-            <li>Google Scholar: <a href="https://scholar.google.com/citations?user=YourGSID" target="_blank">Link</a></li>
-            <li>ORCID: <a href="https://orcid.org/YourORCID" target="_blank">Link</a></li>
-            <li>Universities: <a href="https://www.unibo.it" target="_blank">Unibo</a> | <a href="https://www.unimore.it" target="_blank">Unimore</a></li>
+         <section class="skill">
+          <h3 class="h3 skills-title">Languages</h3>
+          <ul class="skills-list">
+            <li class="skills-item">English: C2 (Cambridge CAE)</li>
+            <li class="skills-item">Italian: mother tongue</li>
+            <li class="skills-item">Spanish: B1 (Certificaciòn DELE)</li>
+            <li class="skills-item">Russian: A1</li>
           </ul>
         </section>
       </article>
@@ -218,4 +284,5 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
